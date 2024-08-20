@@ -1,0 +1,23 @@
+START 
+
+
+
+INPUT   Math & Physics
+
+PROCESS calculate:
+Score_Value  = (Math + Physic)/2 
+
+IF Score Value (Score_Value) <70
+   
+    OUTPUT "REMEDIAL"
+
+
+ELSE 
+   
+    OUTPUT "Your score is " + Score_Value
+
+
+END
+     
+   
+ 
